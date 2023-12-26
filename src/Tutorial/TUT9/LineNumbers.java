@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Act3 {
+public class LineNumbers {
     public static void main(String[] args) throws FileNotFoundException {
         PrintWriter mary = new PrintWriter("mary.txt");
         mary.println("Mary had a little lamb\n" +

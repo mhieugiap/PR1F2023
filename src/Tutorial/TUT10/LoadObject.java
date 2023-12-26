@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
-public class Act3 {
+public class LoadObject {
     public static void main(String[] args) {
         try {
             FileInputStream fis = new FileInputStream("data.bin");

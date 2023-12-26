@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-public class Act2 {
+public class SaveObject {
     public static void main(String[] args) {
         try {
             ArrayList<String> arr = new ArrayList<>();

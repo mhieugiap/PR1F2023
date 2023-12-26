@@ -2,7 +2,7 @@ package Tutorial.TUT10;
 
 import java.util.Scanner;
 
-public class Act1 {
+public class MenuDriven {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int option = 0;

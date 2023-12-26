@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Act2 {
+public class RemoveBlanks {
     public static void main(String[] args) {
         try {
             PrintWriter input = new PrintWriter("src/tut9/input.txt");

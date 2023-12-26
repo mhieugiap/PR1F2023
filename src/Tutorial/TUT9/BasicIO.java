@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Act1 {
+public class BasicIO {
     public static void main(String[] args) throws FileNotFoundException {
         PrintWriter w = new PrintWriter("src\\Tutorial\\TUT9\\hello.txt");
         w.println("Hello, world!");
