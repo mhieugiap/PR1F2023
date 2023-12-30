@@ -25,9 +25,8 @@ public class PrimeProbability {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void primeProb(int n){
         int count = 0;
-        int n = 100;
         for (int i = 0; i < n; i++) {
             if (isPrime(randomInt())) {
                 count++;
@@ -36,5 +35,10 @@ public class PrimeProbability {
         System.out.println("Among " + n + " random integers, " +
                 count + " are prime numbers");
         System.out.println("Probability is " + count + "%.");
+    }
+
+    public static void main(String[] args) {
+        int n = 100;
+        primeProb(n);
     }
 }
