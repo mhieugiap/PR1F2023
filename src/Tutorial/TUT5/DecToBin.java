@@ -17,8 +17,26 @@ public class DecToBin {
         }
     }
 
+    public static String toBinary() {
+        Scanner sc = new Scanner(System.in);
+        int dec = sc.nextInt();
+        if (dec < 0) return null;
+        else if (dec == 0) return "0";
+        else {
+            String out = "";
+            while (dec > 0) {
+                int remainder = dec % 2;
+                out = remainder + out;
+                dec /= 2; //dec= dec/2;
+            }
+            return out;
+        }
+    }
+
+
     public static void main(String[] args) {
         // test
+        System.out.println(toBinary());
         System.out.println(toBinary(-1));
         System.out.println(toBinary(0));
         System.out.println(toBinary(1));

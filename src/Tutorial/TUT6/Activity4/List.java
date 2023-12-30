@@ -19,10 +19,10 @@ public class List {
     public void remove(int index) {
         int[] b = new int[size() - 1];
         for (int i = 0; i < b.length; i++) {
-            if (i < index) {
-                b[i] = els[i];
+            if (i == index) {
+               continue;
             } else {
-                b[i] = els[i + 1];
+                b[i] = els[i];
             }
         }
         els = b;
