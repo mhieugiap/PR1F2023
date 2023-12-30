@@ -7,6 +7,11 @@ public class PasswordStrength {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a new password: ");
         String password = sc.nextLine();
+        validatePassword(password);
+
+    }
+
+    public static void validatePassword(String password){
         int score = 0;
         if (password.length() > 12) {
             score = 2;
